@@ -125,7 +125,16 @@
       "marginTop": 4,
       "marginBottom": 7
     },
-    "children": ["add-to-cart-button"]
+    "children": [
+      "buy-button"
+      //"add-to-cart-button"
+    ]
+  },
+
+  "add-to-cart-button": {
+    "props": {
+      "text": "add to cart button"
+    }
   },
 
   "share#default": {

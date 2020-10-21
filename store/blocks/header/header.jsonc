@@ -43,9 +43,56 @@
     "children": [
       "vtex.menu@2.x:menu#websites",
       "flex-layout.col#spacer",
+      "shopper-location",
       "vtex.menu@2.x:menu#institutional"
     ]
   },
+
+  "shopper-location": {
+    "children": ["modal-trigger#address"]
+  },
+  "shopper-location#mobile": {
+    "children": []
+  },
+  "modal-trigger#address": {
+    "children": ["user-address", "modal-layout#address"]
+  },
+  "user-address": {
+    "props": {
+      "variation": "bar",
+      "showStreet": false,
+      "showCityAndState": true,
+      "showPostalCode": true,
+      "showPrefix": false,
+      "showIfEmpty": true
+    }
+  },
+  "modal-layout#address": {
+    "children": ["modal-header#address", "modal-content#address"],
+    "props": {
+      "bodyClass": "shopper-location-modal"
+    }
+  },
+  "modal-header#address": {
+    "children": ["flex-layout.col#address-header"]
+  },
+  "flex-layout.col#address-header": {
+    "children": ["rich-text#address-header"],
+    "props": {
+      "paddingLeft": 5
+    }
+  },
+  "rich-text#address-header": {
+    "props": {
+      "text": "### Change Location",
+      "bodyClass": "shopper-location-modal-title"
+    }
+  },
+  "modal-content#address": {
+    "children": ["change-location"]
+  },
+
+
   "flex-layout.col#spacer": {
     "props": {
       "width": "grow"
@@ -73,7 +120,7 @@
       "search-bar",
       "locale-switcher",
       "login",
-      "minicart.v2"
+      "minicart"
     ]
   },
   "flex-layout.col#logo-desktop": {
@@ -108,7 +155,7 @@
       "logo#mobile",
       "flex-layout.col#spacer",
       "login",
-      "minicart.v2"
+      "minicart"
     ],
     "props": {
       "blockClass": "main-header-mobile",
@@ -123,6 +170,7 @@
 
   "menu#drawer": {
     "children": [
+      "modal-trigger#address",
       "menu-item#category-apparel",
       "menu-item#category-home",
       "menu-item#more"
