@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## [0.0.2] - 2021-03-29
+
 ## [3.38.0] - 2020-09-10
 ### Added
 - `disclosure-layout` example.

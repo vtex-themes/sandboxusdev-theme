@@ -2,7 +2,7 @@
   "vendor": "sandboxusdev",
   "name": "sandboxusdev-theme",
   "title": "sandboxusdev Theme",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "builders": {
     "styles": "2.x",
     "store": "0.x",
