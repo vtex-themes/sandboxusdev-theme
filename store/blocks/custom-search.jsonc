@@ -1,0 +1,43 @@
+{
+  "store.custom#custom-search": {
+    "parent": {
+      "header": "header.full"
+    },
+    "blocks": [
+      "search-result-layout.customQuery"
+    ]
+  },
+  "search-result-layout.customQuery": {
+    "props": {
+      "querySchema": {
+        "orderByField": "",
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 48,
+        "queryField": "",
+        "mapField": "ft",
+        "skusFilter": "ALL_AVAILABLE",
+        "simulationBehavior": "skip",
+        "__unstableProductOriginVtex": true
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  },
+  "rich-text#custom-search-seo-title": {
+    "title": "SEO Title",
+    "props": {
+      "text": "",
+      "blockClass": "custom-search-title"
+    }
+  },
+  "rich-text#seo-search-text": {
+    "title": "SEO Text",
+    "props": {
+      "text": "",
+      "blockClass": "seo-text"
+    }
+  }
+}
