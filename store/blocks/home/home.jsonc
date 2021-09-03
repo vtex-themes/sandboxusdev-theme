@@ -15,10 +15,6 @@
     ]
   },
 
-  "shelf#home": {
-    "blocks": ["product-summary.shelf"]
-  },
-
   "list-context.image-list#demo": {
     "children": ["slider-layout#demo-images"],
     "props": {
@@ -67,7 +63,7 @@
   "slider-layout#demo-products": {
     "props": {
       "itemsPerPage": {
-        "desktop": 4,
+        "desktop": 5,
         "tablet": 3,
         "phone": 1
       },
