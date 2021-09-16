@@ -16,7 +16,7 @@
         "queryField": "",
         "mapField": "ft",
         "skusFilter": "ALL_AVAILABLE",
-        "simulationBehavior": "skip",
+        "simulationBehavior": "default",
         "__unstableProductOriginVtex": true
       }
     },
