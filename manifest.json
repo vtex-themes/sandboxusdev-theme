@@ -1,7 +1,7 @@
 {
   "vendor": "sandboxusdev",
   "name": "store-theme",
-  "version": "6.0.0",
+  "version": "7.0.0",
   "builders": {
     "styles": "2.x",
     "store": "0.x",
@@ -65,7 +65,7 @@
   "peerDependencies": {
     "vtex.questions-and-answers": "0.x",
     "vtex.connector-paypal-commerce-platform": "0.x",
-    "vtex.availability-notify": "0.x"
+    "vtex.availability-notify": "1.x"
   },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }
