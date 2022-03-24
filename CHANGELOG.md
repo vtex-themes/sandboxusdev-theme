@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## [5.0.3] - 2022-03-24
+
+### Fixed
+
+- Issue with image sizing in the SKU Selector.
+
 ## [5.0.2] - 2021-09-16
 
 ### Removed
