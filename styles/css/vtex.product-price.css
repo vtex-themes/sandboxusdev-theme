@@ -30,10 +30,8 @@
 }
 
 .savings--summary {
-  background: #8BC34A;
-  border-radius: 1000px;
-  align-items: center;
-  display: flex;
+  border-radius: unset;
+  padding-top: 6px;
   background: transparent;
 }
 
