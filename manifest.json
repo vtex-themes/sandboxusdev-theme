@@ -1,8 +1,7 @@
 {
   "vendor": "sandboxusdev",
-  "name": "sandboxusdev-theme",
-  "title": "sandboxusdev Theme",
-  "version": "0.0.2",
+  "name": "store-theme",
+  "version": "7.0.1",
   "builders": {
     "styles": "2.x",
     "store": "0.x",
@@ -28,7 +27,6 @@
     "vtex.product-details": "1.x",
     "vtex.product-kit": "1.x",
     "vtex.search-result": "3.x",
-    "vtex.search": "2.x",
     "vtex.login": "2.x",
     "vtex.my-account": "1.x",
     "vtex.flex-layout": "0.x",
@@ -43,9 +41,8 @@
     "vtex.stack-layout": "0.x",
     "vtex.product-specification-badges": "0.x",
     "vtex.product-review-interfaces": "1.x",
-    "vtex.reviews-and-ratings": "1.x",
     "vtex.telemarketing": "2.x",
-    "vtex.order-placed": "1.x",
+    "vtex.order-placed": "2.x",
     "vtex.checkout-summary": "0.x",
     "vtex.product-list": "0.x",
     "vtex.add-to-cart-button": "0.x",
@@ -55,15 +52,20 @@
     "vtex.store-icons": "0.x",
     "vtex.modal-layout": "0.x",
     "vtex.store-link": "0.x",
+    "vtex.store-video": "1.x",
     "vtex.product-gifts": "0.x",
     "vtex.product-price": "1.x",
     "vtex.disclosure-layout": "1.x",
-    "vtex.modal": "0.x",
-    "vtex.shopper-location": "0.x"
+    "vtex.store-form": "0.x",
+    "vtex.product-highlights": "2.x",
+    "vtex.product-specifications": "1.x",
+    "vtex.tab-layout": "0.x",
+    "vtex.responsive-layout": "0.x"
   },
   "peerDependencies": {
-    "vtex.location-availability": "0.x",
-    "vtex.wish-list": "1.x"
+    "vtex.questions-and-answers": "0.x",
+    "vtex.connector-paypal-commerce-platform": "0.x",
+    "vtex.availability-notify": "1.x"
   },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }

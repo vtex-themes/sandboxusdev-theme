@@ -76,15 +76,6 @@
       "minicart.v2"
     ]
   },
-  "search-bar": {
-    "blocks": ["autocomplete-result-list.v2"],
-    "props": {
-      "openAutocompleteOnFocus": true
-    }
-  },
-  "autocomplete-result-list.v2": {
-    "blocks": ["product-summary"]
-  },
   "flex-layout.col#logo-desktop": {
     "props": {
       "verticalAlign": "middle"
